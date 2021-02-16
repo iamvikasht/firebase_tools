@@ -1,7 +1,8 @@
 name: firebase_tools
 description: A new Flutter package to use firebase analytics,crashlytics and remote config.
 version: 0.0.1
-author: Vikash
+authors:
+  - vikasht@meditab.com
 homepage: https://github.com/iamvikasht/firebase_tools
 
 environment:
@@ -10,9 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_analytics: 7.0.1
+  firebase_analytics: ^7.0.1
   firebase_core: ^0.7.0
   firebase_crashlytics: ^0.4.0+1
+  firebase_remote_config: ^0.6.0
 
 dev_dependencies:
   flutter_test:
